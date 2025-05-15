@@ -1,12 +1,48 @@
-# React + Vite
+# React Core Concepts 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository covers advanced React concepts focusing on forms, state management, and component communication patterns.
 
-Currently, two official plugins are available:
+## Live Demo
+🔗 [View on Netlify](https://form-master-react-router.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Concepts Covered
 
-## Expanding the ESLint configuration
+### 1. Handling Forms
+- Using `onSubmit` to handle form submissions
+- Accessing form field data in React
+- Differences between controlled and uncontrolled components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Form State Management
+- Managing form state with React hooks
+- Setting default values for form fields
+- Two-way data binding with form inputs
+
+### 3. Refs in React
+- Exploring `useRef` hook
+- When to use refs vs state
+- Controlled vs uncontrolled components in depth
+
+### 4. Custom Hooks
+- Creating your first custom hook
+- Reusing stateful logic across components
+- Best practices for custom hooks
+
+### 5. Advanced: Reusable Forms
+- Building reusable form components
+- Using `props` and `children` for composition
+- Creating flexible form layouts
+
+### 6. Component Lists
+- Rendering lists of components
+- Managing connections between components
+- Best practices for dynamic rendering
+
+### 7. Prop Drilling
+- Understanding prop drilling patterns
+- Passing data through multiple component levels
+- Identifying when prop drilling becomes problematic
+
+### 8. Context API
+- Implementing Context API as an alternative to prop drilling
+- Creating and consuming contexts
+- When to use Context vs other state management solutions
